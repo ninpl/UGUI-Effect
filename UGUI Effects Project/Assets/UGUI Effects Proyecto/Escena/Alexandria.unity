@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 251950586}
   - component: {fileID: 251950585}
   - component: {fileID: 251950588}
+  - component: {fileID: 251950589}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -156,8 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658f5729e1495a44c82e8967c5024141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blendMode: 0
-  color: {r: 1, g: 0.014705896, b: 0.014705896, a: 1}
+  blendMode: 4
+  color: {r: 0.2827587, g: 0, b: 1, a: 1}
 --- !u!114 &251950586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,18 +198,36 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 251950583}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2911f69973e111498a1f5b68496f49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alphaTop: 1
+  alphaTop: 0.958
   alphaBottom: 0.28
-  alphaLeft: 0.674
-  alphaRight: 0.524
-  gradientOffsetVertical: -0.462
-  gradientOffsetHorizontal: -1
+  alphaLeft: 0.708
+  alphaRight: 0.294
+  gradientOffsetVertical: 0.746
+  gradientOffsetHorizontal: -0.317
   splitTextGradient: 1
+--- !u!114 &251950589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 251950583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b26ea522ec2ae54b9e6280fb9dd97e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorTop: {r: 1, g: 0.014705896, b: 0.014705896, a: 1}
+  colorBottom: {r: 0, g: 0.08965492, b: 1, a: 1}
+  colorLeft: {r: 1, g: 1, b: 1, a: 1}
+  colorRight: {r: 1, g: 1, b: 1, a: 1}
+  gradientOffsetVertical: -0.405
+  gradientOffsetHorizontal: 0
+  splitTextGradient: 0
 --- !u!1 &352772648
 GameObject:
   m_ObjectHideFlags: 0
