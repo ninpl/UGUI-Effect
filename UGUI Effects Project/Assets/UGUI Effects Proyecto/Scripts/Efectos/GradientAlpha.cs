@@ -215,10 +215,7 @@ namespace MoonAntonio.UIEffect
 		/// </summary>
 		private void Actualizar()// Actualizamos los graficos
 		{
-			if (graphic != null)
-			{
-				graphic.SetVerticesDirty();
-			}
+			if (graphic != null) graphic.SetVerticesDirty();
 		}
 		#endregion
 	}
