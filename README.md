@@ -3,6 +3,8 @@
 [![Trello](https://img.shields.io/badge/Trello-OFF-red.svg)](https://github.com/MoonAntonio/UGUI-Effect)
 [![Slack Status](https://moonantonio.herokuapp.com/badge.svg)](https://moonantonio.herokuapp.com/)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/MoonAntonio/UGUI-Effect/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/MoonAntonio/UGUI-Effect.svg)](https://github.com/MoonAntonio/UGUI-Effect/network)
+[![GitHub stars](https://img.shields.io/github/stars/MoonAntonio/UGUI-Effect.svg)](https://github.com/MoonAntonio/UGUI-Effect/stargazers)
 
 # UGUI-Effect
 Efectos para la nueva UI
